@@ -9,8 +9,8 @@ import shutil
 
 file = 'output/'
 
-excel_data_df = pd.read_excel("Neshi.xlsx", sheet_name='sheet1')
-data = excel_data_df['tot'].tolist()
+excel_data_df = pd.read_excel("BATMALOO.xlsx", sheet_name='sheet1')
+data = excel_data_df['qrcode'].tolist()
 
 for new in data:
     nams = str(new)
